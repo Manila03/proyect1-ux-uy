@@ -3,34 +3,37 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer sitio</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
 </head>
 
 <body>
-    <header>
-        <h1>Me llamo Juan Zapata</h1>
-        <h2>y este es mi sitio Personal</h2>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#intereses">intereses</a></li>
+    <header class="cabecera">
+        <h1 class="titulo-principal">Me llamo Juan Zapata</h1>
+        <h2 class="subtitulo-header">y este es mi sitio Personal</h2>
+        <nav class="menu-navegacion">
+            <ul class="lista-navegacion">
+                <li class="item-navegacion"><a class="enlace-navegacion" href="index.html">Home</a></li>
+                <li class="item-navegacion"><a class="enlace-navegacion" href="intereses.html">Intereses</a></li>
+                <li class="item-navegacion"><a class="enlace-navegacion" href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="intereses">
-            <h2>Mis Intereses</h2>
-            <p>Desarrollo Back-end</p>
-            <p>Buscar soluciones a problemas recurrentes</p>
-            <p>Aprender tecnologias nuevas</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aspernatur minima sed doloribus
+    <main class="contenedor-principal">
+        <section id="intereses" class="tarjeta-seccion">
+            <h2 class="titulo-seccion">Mis Intereses</h2>
+            <p class="parrafo-standard">Desarrollo Back-end</p>
+            <p class="parrafo-standard">Buscar soluciones a problemas recurrentes</p>
+            <p class="parrafo-standard">Aprender tecnologias nuevas</p>
+            <p class="parrafo-standard">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aspernatur
+                minima sed doloribus
                 deleniti, rem numquam veritatis iusto, voluptatibus voluptates, fugiat eius minus architecto. Dolore
-                consequatur assumenda totam quam commodi?</p>
+                consequatur asumenda totam quam commodi?</p>
         </section>
     </main>
-    <footer>
-        <p>Creado por Juan Zapata</p>
-        <p>Materia: Diseño y desarrollo web</p>
-        <p>UADE</p>
+    <footer class="pie-pagina">
+        <p class="texto-footer">Creado por Juan Zapata</p>
+        <p class="texto-footer">Materia: Diseño y desarrollo web</p>
+        <p class="texto-footer">UADE</p>
     </footer>
 
 </body>

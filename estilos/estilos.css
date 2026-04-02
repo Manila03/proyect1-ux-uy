@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0B1E2D;
+    color: #F8FAFC;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+/* Clases para el Header */
+.cabecera {
+    background-color: #1E293B;
+    padding: 40px;
+    text-align: center;
+    border-bottom: 4px solid #A3E635;
+}
+
+.titulo-principal {
+    color: #22D3EE;
+    font-size: 32px;
+    margin: 0;
+}
+
+.subtitulo-header {
+    color: #94A3B8;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Clases para la Navegación */
+.menu-navegacion {
+    margin-top: 25px;
+}
+
+.lista-navegacion {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.item-navegacion {
+    margin: 0 15px;
+}
+
+.enlace-navegacion {
+    color: #F8FAFC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.enlace-navegacion:hover {
+    color: #A3E635;
+}
+
+/* Clases para el Contenido Principal */
+.contenedor-principal {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.tarjeta-seccion {
+    background-color: #1E293B;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.titulo-seccion {
+    color: #A3E635;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.parrafo-standard {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.imagen-proporcional {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 15px auto;
+}
+
+/* Clases para el Footer */
+.pie-pagina {
+    background-color: #0B1E2D;
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid #1E293B;
+}
+
+.texto-footer {
+    color: #94A3B8;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Clases de Acentos */
+.texto-dorado {
+    color: #FACC15;
+    font-weight: bold;
+}
+
+.etiqueta-formulario {
+    color: #22D3EE;
+    font-weight: bold;
+    display: block;
+}

@@ -3,38 +3,35 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer sitio</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
 </head>
 
 <body>
-    <header>
-        <h1>Me llamo Juan Zapata</h1>
-        <h2>y este es mi sitio Personal</h2>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="intereses.html">Intereses</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+    <header class="cabecera">
+        <h1 class="titulo-principal">Me llamo Juan Zapata</h1>
+        <h2 class="subtitulo-header">y este es mi sitio Personal</h2>
+        <nav class="menu-navegacion">
+            <ul class="lista-navegacion">
+                <li class="item-navegacion"><a class="enlace-navegacion" href="index.html">Home</a></li>
+                <li class="item-navegacion"><a class="enlace-navegacion" href="intereses.html">Intereses</a></li>
+                <li class="item-navegacion"><a class="enlace-navegacion" href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="sobre-mi">
-            <h2>Sobre mi</h2>
-            <img src="img/infografia diseño web.png" alt="mi persona">
-            <p>hola, soy un apasionado del Desarrollo Web y actualmente estudio en la UADE</p>
+    <main class="contenedor-principal">
+        <section id="sobre-mi" class="tarjeta-seccion">
+            <h2 class="titulo-seccion">Sobre mi</h2>
+            <img class="imagen-proporcional" src="img/infografia diseño web.png" alt="mi persona">
+            <p class="parrafo-standard">Hola, soy un apasionado del Desarrollo Web y actualmente estudio en la <span class="texto-dorado">UADE</span>. Me enfoco principalmente en el desarrollo de aplicaciones robustas combinando el poder de <span class="texto-dorado">Java</span> con <span class="texto-dorado">Spring Boot</span> y la versatilidad de <span class="texto-dorado">Node.js</span>.</p>
+            <p class="parrafo-standard">En mi día a día, utilizo <span class="texto-dorado">Docker</span> para la contenedorización, <span class="texto-dorado">Git</span> para el control de versiones y gestiono datos eficientemente mediante <span class="texto-dorado">SQL</span>.</p>
 
-            <h3>Mis Habilidades</h3>
-            <p>Docker</p>
-            <p>Git</p>
-            <p>Java</p>
-            <p>Spring-boot</p>
-            <p>Node.js</p>
-            <p>SQL</p>
+            <h3 class="titulo-seccion">Stack Tecnológico</h3>
+            <p class="parrafo-standard">Docker, Git, Java, Spring-boot, Node.js, SQL</p>
         </section>
     </main>
-    <footer>
-        <p>Creado por Juan Zapata</p>
-        <p>Diseño y desarrollo web</p>
+    <footer class="pie-pagina">
+        <p class="texto-footer">Creado por Juan Zapata</p>
+        <p class="texto-footer">Diseño y desarrollo web</p>
     </footer>
 </body>
 
